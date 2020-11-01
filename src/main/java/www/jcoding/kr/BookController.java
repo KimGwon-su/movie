@@ -19,7 +19,7 @@ public class BookController {
 		if(query == null || query.length() == 0) {
 			return new ArrayList<BookInfo>();
 		}
-		final String APP_KEY = "KakaoAK ";
+		final String APP_KEY = "KakaoAK 10978b7a892e77302563fd99d5614985";
 		StringBuilder sb = new StringBuilder();
 		sb.append("https://dapi.kakao.com");
 		sb.append("/v3/search/book");
